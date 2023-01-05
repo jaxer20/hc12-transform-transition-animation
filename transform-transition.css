@@ -10,3 +10,55 @@
 
     transform: rotateX(180deg);
 }
+
+.yazi2{
+    background-color: yellow;
+    transform: rotateY(180deg);
+}
+
+.yazi3{
+    background-color: antiquewhite;
+    transform:rotate(170deg);
+}
+
+
+.yazi4{
+    background-color: aqua;
+    transform: scalex(1.5);
+}
+
+.yazi5{
+    background-color: bisque;
+    transform: scaley(2.5);
+}
+
+.yazi6{
+    background-color:hotpink;
+    transform: scalex(1.5);
+}
+.yazi6:hover{
+    transform: scale(1.5);
+    transform: rotate(50deg);
+}
+
+img{
+    transform: rotate(50deg);
+}
+
+.box{
+    background-color: red;
+    width: 100px;
+    font-weight: 800;
+    height: 50px;
+}
+.x{
+    transform: translatex(50px);
+}
+
+.y{
+    transform: translatey(150px);
+}
+
+.xy{
+    transform: translate(20px, 25px);
+}
